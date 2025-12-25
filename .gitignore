@@ -1,0 +1,14 @@
+# nvim cache
+nvim/.swap
+nvim/.backup
+nvim/.undo
+nvim/shada
+nvim/site/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# secrets
+*.local
+*.secret

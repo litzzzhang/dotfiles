@@ -1,0 +1,13 @@
+# nvim cache
+.swap
+.backup
+.undo
+*.log
+shada
+
+# plugin directory
+site/pack
+
+# OS
+.DS_Store
+EOF
