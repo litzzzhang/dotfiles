@@ -55,6 +55,15 @@ main() {
   # Neovim / LazyVim 配置
   link_file "$DOTFILES_DIR/nvim" "$HOME/.config/nvim"
 
+  # ghostty
+  link_file "$DOTFILES_DIR/ghostty/config" "$HOME/.config/ghostty/config"
+
+  # tmux
+  link_file "$DOTFILES_DIR/.tmux.conf" "$HOME/.tmux.conf"
+
+  # starship
+  link_file "$DOTFILES_DIR/starship.toml" "$HOME/.config/starship.toml"
+
   log "全部完成。"
 }
 
