@@ -1,8 +1,6 @@
-git clone
 
-mv ~/.config/nvim ~/.config/nvim.bak 2>/dev/null
-mkdir -p ~/.config
-ln -s ~/dotfiles/nvim ~/.config/nvim
+```bash
+chmod +x install.sh
+bash ./install.sh
 
-rm -f ~/.gitconfig
-ln -s ~/dotfiles/gitconfig ~/.gitconfig
+```
