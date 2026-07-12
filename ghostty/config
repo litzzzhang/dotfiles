@@ -5,8 +5,3 @@ theme = Catppuccin Frappe
 cursor-style = block
 shell-integration-features = no-cursor
 
-window-padding-x = 0
-window-padding-y = 0
-window-padding-color = extend-always
-window-padding-balance = true
-
