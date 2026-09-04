@@ -4,4 +4,6 @@ font-style = Bold
 theme = Catppuccin Frappe
 cursor-style = block
 shell-integration-features = no-cursor
-
+window-decoration = none
+background-opacity = 0.85
+background-opacity-cells = true
