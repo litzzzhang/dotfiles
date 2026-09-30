@@ -58,6 +58,10 @@ main() {
   # ghostty
   link_file "$DOTFILES_DIR/ghostty/config" "$HOME/.config/ghostty/config"
 
+  # kitty
+  link_file "$DOTFILES_DIR/kitty/kitty.conf" "$HOME/.config/kitty/kitty.conf"
+  link_file "$DOTFILES_DIR/kitty/kitty.desktop" "$HOME/.local/share/applications/kitty.desktop"
+
   # tmux
   link_file "$DOTFILES_DIR/.tmux.conf" "$HOME/.tmux.conf"
 
